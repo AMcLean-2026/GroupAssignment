@@ -20,4 +20,4 @@ jobs:
       - name: Run image
         run: docker run --name devopscontainer -d devopsimage
       - name: view logs
-        run: docker logs -f devopscontainer
+        run: docker logs devopscontainer
