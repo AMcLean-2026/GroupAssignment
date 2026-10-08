@@ -1,5 +1,6 @@
 name: A workflow for my Hello World App
-on: push
+on: 
+  push:
 
 jobs:
   build:
